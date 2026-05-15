@@ -17,7 +17,7 @@ import { hideTextInImage } from "../lib/stego";
 import { KeyRound, Users } from "lucide-react"; 
 
 // Make sure to use your computer's actual local IP address here!
-const socket = io("http://192.168.1.9:3001", {
+const socket = io("http://10.61.2.33:3001", {
   autoConnect: false,
 });
 
@@ -301,4 +301,3 @@ export default function Home() {
     </main>
   );
 }
-```
