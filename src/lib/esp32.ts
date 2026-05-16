@@ -1,5 +1,5 @@
 // --- CONFIGURATION ---
-const USE_MOCK_HARDWARE = true; // Change to false when the real ESP is plugged in!
+const USE_MOCK_HARDWARE = false; // Change to false when the real ESP is plugged in!
 const ESP32_IP = "http://10.61.2.50";
 
 // Default to User A (Port 80)
